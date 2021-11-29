@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon inndex.js"
+    "dev": "nodemon inndex.js",
+    "heroku-postbuild": "npm install"
   },
   "author": "Darshan P",
   "license": "ISC",
